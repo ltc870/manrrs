@@ -24,3 +24,7 @@ So a typical workflow I use is this:
 Here's a website from Git Kraken that will explain everything to get you started with Git.
 
 https://www.gitkraken.com/learn/git
+
+Here's another good resource w3schools to learn Git.
+
+https://www.w3schools.com/git/
