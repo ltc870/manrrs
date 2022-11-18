@@ -20,3 +20,7 @@ So a typical workflow I use is this:
 - git status: I do this again to see what's staged and not staged.
 - git commit -m "short descriptive message": if I'm satisfied with what's being staged, I then do this command. And that's it.
 -git push: if your local repository is connected to a remote repository, this command will push the local changes to the remote repository. If your local repository isn't connected to the remote version, git will tell you, just follow the directions.
+
+Here's a website from Git Kraken that will explain everything to get you started with Git.
+
+https://www.gitkraken.com/learn/git
