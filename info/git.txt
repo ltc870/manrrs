@@ -1,0 +1,22 @@
+This file is where I'll teach you git commands. I'll do my best from here to teach you how to use git. You can always look up cheat sheets as well or watch videos if you need a better explanation. 
+
+git init - initializes a project to being a git repository. Please be carful when using this command. Some folks have initialized their whole machine as a repository before. From the command line, make sure you're in the directory (or folder) you want to be a git project and then do git init. It's probably best you watch a video first to see this in action before doing this 😅😅😅
+
+git status - shows you every file in the git repository that's been modified or has been added and currently not being tracked by git.
+
+git log - shows you all of the commits you've made with their id number.
+
+git add <filename> - adds a specific file to the staging area. (staging pretty much says I'm ready to commit this file). 
+
+git commit - commits the file so it will be tracked by git. You'll also have to add a brief message that normally says what changes you've made. Ex: git commit -m "added commandline.txt and git.txt" 
+
+git push - sends the commit to the remote repository (repository in GitHub). You may want to watch a video to understand this one better.
+
+So a typical workflow I use is this:
+
+- Made some changes to a file
+- git status: shows me all of the files I've made changes to or I've added and aren't being tracked by git.
+- git add <filename>: Allows me to add the specific file the staging area. Or I can use "git add ." which will allow me to add every file that's been modified to the staging area, but I only use this if the changes made in each file are related, so normally I just add and commit files one by one. 
+- git status: I do this again to see what's staged and not staged.
+- git commit -m "short descriptive message": if I'm satisfied with what's being staged, I then do this command. And that's it.
+-git push: if your local repository is connected to a remote repository, this command will push the local changes to the remote repository. If your local repository isn't connected to the remote version, git will tell you, just follow the directions.

@@ -1,0 +1,26 @@
+Hey Mohamed, this is where I'm going to be typing up info for you. Please check this when we work together. Here's some commands for the command line you'll be using.
+
+https://www.makeuseof.com/tag/essential-windows-cmd-commands/
+
+This list will give you a lot of the commands you'll be using on the command line. The ones you'll be using the most are the ones I'm going to list out. You'll have to look them up to see exactly how to use them. 
+
+cd (change directory) - use this command when you want to move from folder to folder.
+copy - copies one of more files to another location.
+del - deletes one or more files.
+dir - displays a list of files and folders in the directory(folder) you're currently in.
+erase - same as del
+help - shows you the same list of commands from the above website.
+mkdir - creates a directory. (ex: mkdir <directory name>)
+move - moves one or more files from one directory to another directory.
+rd or rmdir - removes a directory.
+rename or ren - renames a file or files.
+type nul > <filename>.<extension> - creates a new file (ex: type nul > index.py)
+
+How to navigate to a specific directory: you can always "cd" one directory at a time or you can do this: cd directory\directory\directory\file. This will let you travel to the specific directory in one go, you just gotta know the path to the directory. You can always back out a directory one level with: cd ..\ 
+This will let you back up one level. You can also chain it depending how far back you want to go:
+cd ..\..\ 
+This will back you up two levels and so forth.
+
+
+
+
