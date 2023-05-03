@@ -19,3 +19,5 @@
 <p>In the link tag, you have an href attribute. You will link your external CSS file within this property.</p>
 
 <p>You can name your css file index.css or styles.css (there' multiple conventions when naming your CSS files but when putting your styles in one style sheet, you'll either name them index.css or styles.css)</p>
+
+<p>Next we'll talk about using CSS.</p>
