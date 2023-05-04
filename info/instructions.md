@@ -95,3 +95,5 @@ a {
   font-weight: bold;
 }
 ```
+
+<p>We can talk about targeting elements with CSS once you figure out how to do the above.</p>
