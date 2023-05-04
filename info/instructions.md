@@ -1,4 +1,4 @@
-# Instructions for linking your CSS file to your HTML file and Using your CSS file.
+# Ways to use CSS in your HTML.
 
 ## Linking your CSS file
 
