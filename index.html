@@ -1,12 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<title>My Styled Web Page</title>
+	<style>
+		h1 {
+			font-size: 36px;
+			font-weight: bold;
+			text-align: center;
+			text-transform: uppercase;
+			margin-bottom: 30px;
+		}
+
+		h2 {
+			font-size: 24px;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: #006699;
+			margin-bottom: 10px;
+		}
+
+		h3 {
+			font-size: 20px;
+			font-weight: bold;
+			text-transform: uppercase;
+			color: #009900;
+			margin-bottom: 10px;
+		}
+
+		p {
+			font-size: 16px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+			text-align: justify;
+		}
+
+		a {
+			color: #006699;
+			text-decoration: none;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+
+		em {
+			font-style: italic;
+		}
+
+		strong {
+			font-weight: bold;
+		}
+
+		u {
+			text-decoration: underline;
+		}
+
+		del {
+			text-decoration: line-through;
+		}
+	</style>
 </head>
 <body>
-    
+	<header>
+		<h1>Welcome to My Styled Web Page</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<h2>About Me</h2>
+			<p>Hi, my name is John and I'm a <strong>web developer</strong> based in <u>New York</u>. I have over 5 years of experience in building websites and web applications using HTML, CSS, and JavaScript. In my free time, I enjoy playing <a href="#">guitar</a> and <a href="#">tennis</a>.</p>
+			<p><em>If you're interested in learning more about my work, please don't hesitate to <a href="#">contact me</a>.</em></p>
+		</section>
+		<section>
+			<h2>My Projects</h2>
+			<ol>
+				<li><a href="#">Project 1</a></li>
+				<li><a href="#">Project 2</a></li>
+				<li><a href="#">Project 3</a></li>
+			</ol>
+			<ul>
+				<li>Responsive design</li>
+				<li>Cross-browser compatibility</li>
+				<li>Fast page load times</li>
+			</ul>
+			<blockquote>
+				<p>"The best way to predict the future is to create it." - Abraham Lincoln</p>
+			</blockquote>
+		</section>
+	</main>
+	<footer>
+		<hr>
+		<p>&copy; 2023 My Styled Web Page</p>
+	</footer>
+	<!-- This is a comment -->
 </body>
 </html>
